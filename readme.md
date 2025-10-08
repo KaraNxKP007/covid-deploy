@@ -1,4 +1,4 @@
-# 🧠 AI Project #01: COVID-19 Chest X-ray Detection System
+# 🧠 Machine Learning Project: COVID-19 Chest X-ray Detection System
 
 > **An AI-powered web application that detects COVID-19 from chest X-ray images using deep learning and computer vision.**
 
@@ -13,7 +13,7 @@
 ## 📄 Resume Project Summary
 
 **Project Title:** COVID-19 Chest X-ray Detection System  
-**Type:** Academic + Research Project (Machine Learning | Computer Vision)  
+**Type:** Academic Project (Machine Learning | Computer Vision)  
 **Institution:** Indian Institute of Technology Jodhpur  
 **Student:** *Karan Pratap Singh Rathore (B22CH013)*  
 
@@ -43,20 +43,6 @@
 The application is deployed and live at:  
 🔗 **[https://covid-deploy-lfvgaacdplv5cd68aafvkb.streamlit.app/](https://covid-deploy-lfvgaacdplv5cd68aafvkb.streamlit.app/)**
 
----
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=COVID-19+Detection+Dashboard)
-
-### Detection Interface
-![Detection](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=AI+Analysis+Interface)
-
-### Results Visualization
-![Results](https://via.placeholder.com/800x400/FF9800/FFFFFF?text=Detailed+Results+with+Confidence+Scores)
-
----
 
 ## 🛠️ Technology Stack
 
@@ -92,8 +78,6 @@ The application is deployed and live at:
 
 ---
 
-
----
 
 ## 🚀 Quick Start
 
