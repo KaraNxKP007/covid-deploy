@@ -1,5 +1,10 @@
 streamlit
 numpy
-Pillow
-plotly
+pandas
 opencv-python-headless
+Pillow
+tensorflow-cpu
+plotly
+matplotlib
+seaborn
+protobuf
