@@ -27,15 +27,62 @@
 
 ---
 
-## 🌐 Live Demo  
-🔗 [**Streamlit App**](https://covid-deploy-lfvgaacdplv5cd68aafvkb.streamlit.app/)  
+## 🌟 Features
+
+- **AI-Powered Detection**: DenseNet121 with transfer learning for accurate COVID-19 detection  
+- **Real-time Analysis**: Provides results in under 2 seconds per image  
+- **Medical-grade Preprocessing**: CLAHE enhancement and image normalization  
+- **Interactive Dashboard**: Visualization with confidence scores and risk assessment  
+- **Multi-page Interface**: Dashboard, detection, insights, and about sections  
+- **Responsive Design**: Works seamlessly on desktop and mobile devices  
 
 ---
 
-## 📊 Model Performance
+## 🚀 Live Demo
 
-| Metric | Value |
-|--------|--------|
+The application is deployed and live at:  
+🔗 **[https://covid-deploy-lfvgaacdplv5cd68aafvkb.streamlit.app/](https://covid-deploy-lfvgaacdplv5cd68aafvkb.streamlit.app/)**
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=COVID-19+Detection+Dashboard)
+
+### Detection Interface
+![Detection](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=AI+Analysis+Interface)
+
+### Results Visualization
+![Results](https://via.placeholder.com/800x400/FF9800/FFFFFF?text=Detailed+Results+with+Confidence+Scores)
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend:** Streamlit, HTML/CSS  
+- **Backend:** Python, TensorFlow, Keras  
+- **Computer Vision:** OpenCV, PIL/Pillow  
+- **Data Processing:** NumPy, Pandas  
+- **Visualization:** Plotly, Matplotlib, Seaborn  
+- **Deployment:** Streamlit Community Cloud  
+
+---
+
+## 📊 Model Architecture
+
+- **Base Model:** DenseNet121 (Transfer Learning)  
+- **Input Size:** 224×224×3  
+- **Output:** Binary Classification (COVID-19 / Normal)  
+- **Training Data:** 40,000+ chest X-ray images  
+- **Performance:** 96.2% accuracy, 0.978 AUC-ROC  
+
+---
+
+## 🎯 Key Metrics
+
+| Metric | Score |
+|--------|-------|
 | ✅ Accuracy | 96.2% |
 | 🎯 Precision | 95.1% |
 | 🔁 Recall | 94.8% |
@@ -45,42 +92,24 @@
 
 ---
 
-## 🧩 System Architecture
-
-- **Base Model:** DenseNet121 (Transfer Learning)  
-- **Input Size:** 224×224×3  
-- **Output:** Binary Classification (COVID-19 / Normal)  
-- **Dataset:** COVID-19 Radiography Database (40k+ images)  
-- **Enhancements:** CLAHE, histogram equalization, normalization, and augmentation  
-
-
-## 📁 Project Structure
-covid-deploy/
-├── covid_detection_app.py # Main Streamlit application
-├── requirements.txt # Dependencies
-├── deployment/ # Trained models
-│ ├── best_DenseNet121_TL.h5
-│ └── best_Custom_CNN_V3.h5
-└── datasets/ # Dataset (not included)
-
-
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Installation
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/KaranxKP007/covid-deploy.git
 cd covid-deploy
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run locally
+# Run the application
 streamlit run covid_detection_app.py
-
