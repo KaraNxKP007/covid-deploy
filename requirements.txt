@@ -3,8 +3,8 @@ numpy
 pandas
 opencv-python-headless
 Pillow
-tensorflow-cpu
 plotly
 matplotlib
 seaborn
 protobuf
+tensorflow-cpu==2.15.0
