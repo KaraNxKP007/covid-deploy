@@ -7,4 +7,4 @@ plotly
 matplotlib
 seaborn
 protobuf
-tensorflow-cpu==2.15.0
+tensorflow==2.20.0
